@@ -2,11 +2,12 @@
 # Generator token: 10BE3573-1514-4C36-9D1C-5A225CD40393
 
 #' Hello world from Rcpp
-#' @return A list with two vectors (`x`, `y`).
+#' @return
+#' A list with two vectors (`x`, `y`).
 #' @examples
 #' rcpp_hello_world()
 #' @export
 rcpp_hello_world <- function() {
-    .Call(`_egpkg_rcpp_hello_world`)
+    .Call(`_egpkg2024_rcpp_hello_world`)
 }
 

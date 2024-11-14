@@ -1,3 +1,3 @@
 #' @importFrom Rcpp evalCpp
-#' @useDynLib egpkg, .registration = TRUE
+#' @useDynLib egpkg2024, .registration = TRUE
 NULL
