@@ -1,2 +1,7 @@
-^egpkg-fall2024\.Rproj$
+^.*\.Rproj$
 ^\.Rproj\.user$
+^\.github$
+^README\.Rmd$
+^Rplots\.pdf$
+^doc$
+^Meta$
