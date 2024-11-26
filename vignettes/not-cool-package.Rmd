@@ -33,3 +33,12 @@ knitr::include_graphics(
 ```
 
 ![](`r system.file("R_logo.svg.png", package = "egpkg2024")`)
+
+
+You can see a full featured R script that uses the package under the following path:
+
+```r
+system.file("analysis-scripts/analysis.R", package="egpkg2024")
+```
+
+(which will vary depending on where you installed the package).

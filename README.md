@@ -55,3 +55,26 @@ You can also embed plots, for example:
 
 In that case, don’t forget to commit and push the resulting figure
 files, so they display on GitHub and CRAN.
+
+## Installing from source
+
+You can install this package from the source using the following
+commands from the command line:
+
+``` bash
+R CMD build .
+R CMD INSTALL egpkg2024_1.0.tar.gz
+```
+
+The first command builds a tar.gz file that can be shared. This is what
+you share when you submit to CRAN. The second command installs the
+package in your computer. Notice that this approach builds the
+vignettes, making them available to your R session. Recall you can
+access vignettes using the `vignette` command like this:
+
+``` r
+vignette(package="dplyr")
+```
+
+Which will list the vignettes available to the dplyr R package (learn
+more typing `?vignette` in your R console).
